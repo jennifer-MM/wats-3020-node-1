@@ -12,7 +12,7 @@ let input = getargs.getIntegerArg();
 // TODO check input using isNaN and NOT Number.isInteger 
 if (isNaN(input) || !Number.isInteger(input)) {
   console.log("usage: node 4-hours-to-minutes <integer>");
-  // TODO use console.log to provide a usage statement when user forgets to enter a number
+ 
 } else {
  let hours = (input / 60).toFixed();
  let minutes = input % 60;
